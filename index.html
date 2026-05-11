@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hijri Today – Islamic Calendar Widget for Android</title>
+
+    <!-- SEO Meta -->
+    <meta
+      name="description"
+      content="Hijri Today brings the Islamic Hijri calendar to your Android home screen. Beautiful widgets, Islamic event reminders, Sunnah fasting alerts, and Javanese Pasaran — completely free, no ads."
+    />
+    <meta
+      name="keywords"
+      content="hijri calendar, islamic calendar widget, android widget, ramadan, eid, sunnah fasting, ayyamul bidh, javanese pasaran, hijri date"
+    />
+    <meta name="author" content="FlagoDNA Developer" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="./data/icons/hijri-today.png" />
+    <link
+      rel="canonical"
+      href="https://flagodna-developer.github.io/hijri-today/"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://flagodna-developer.github.io/hijri-today/"
+    />
+    <meta property="og:title" content="Hijri Today – Islamic Calendar Widget" />
+    <meta
+      property="og:description"
+      content="Beautiful Hijri date widgets for your Android home screen. Free, no ads, supports 31 languages. Never miss Ramadan, Eid, or Sunnah fasting days again."
+    />
+    <meta
+      property="og:image"
+      content="https://flagodna-developer.github.io/hijri-today/data/images/og-image.jpg"
+    />
+    <meta property="og:site_name" content="Hijri Today" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Hijri Today – Islamic Calendar Widget"
+    />
+    <meta
+      name="twitter:description"
+      content="Free Android widget for Hijri dates, Islamic events & Sunnah fasting. 31 languages, no ads."
+    />
+    <meta
+      name="twitter:image"
+      content="https://flagodna-developer.github.io/hijri-today/data/images/og-image.jpg"
+    />
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Hijri Today",
+        "operatingSystem": "Android 6.0+",
+        "applicationCategory": "LifestyleApplication",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Hijri Today brings the Islamic calendar to your Android home screen with beautiful, easy-to-use widgets.",
+        "author": { "@type": "Organization", "name": "FlagoDNA Developer" },
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.flagodna.hijridate",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "5000"
+        }
+      }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./data/css/style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">
+          <img
+            src="./data/icons/hijri-today.png"
+            alt="FastiQuran"
+            onerror="this.style.display='none'"
+          />
+          <span class="logo-text">Hijri Today</span>
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+          target="_blank"
+          rel="noopener"
+          class="nav-cta"
+        >
+          Get the App
+        </a>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg-pattern" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Free · No Ads · 5,000+ Downloads
+        </div>
+        <h1 class="hero-title">
+          The Islamic calendar,<br />
+          <em>always on your screen.</em>
+        </h1>
+        <p class="hero-sub">
+          Hijri Today brings accurate Hijri dates, Islamic events &amp; Sunnah
+          fasting reminders right to your Android home screen — beautifully. No
+          taps needed.
+        </p>
+        <div class="hero-actions">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M3.18 23.76a2 2 0 0 0 2.08-.22l12.3-7.09-2.87-2.88-11.51 10.19zM.5 1.1C.19 1.46 0 2 0 2.69v18.62c0 .69.19 1.23.5 1.59l.08.07 10.43-10.43v-.24L.58 1.03.5 1.1zM20.56 10.37l-2.93-1.7-3.19 3.2 3.19 3.19 2.94-1.7c.84-.49.84-1.28-.01-1.99zM5.26.46L17.56 7.55l-2.87 2.87L3.18.23A2 2 0 0 1 5.26.46z"
+              />
+            </svg>
+            Download on Google Play
+          </a>
+          <a href="#features" class="btn-ghost">Explore features ↓</a>
+        </div>
+
+        <!-- Widget mockups -->
+        <div class="hero-widgets" aria-label="Widget preview">
+          <div class="widget widget--standard">
+            <div class="w-label">Standard</div>
+            <div class="w-arabic">رَمَضَان</div>
+            <div class="w-date">15 Ramadan 1446</div>
+            <div class="w-event">🌙 Lailatul Qadr approaching</div>
+          </div>
+          <div class="widget widget--minimal">
+            <div class="w-label">Minimal</div>
+            <div class="w-date-big">15</div>
+            <div class="w-month">Ramadan 1446</div>
+          </div>
+          <div class="widget widget--arabic">
+            <div class="w-label">Arabic</div>
+            <div class="w-arabic-full">١٥ رَمَضَان ١٤٤٦</div>
+            <div class="w-day-ar">الأربعاء</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+      <div class="stats-inner">
+        <div class="stat">
+          <span class="stat-n">5K+</span>
+          <span class="stat-l">Downloads</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">31</span>
+          <span class="stat-l">Languages</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">5</span>
+          <span class="stat-l">Widget Styles</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">0₨</span>
+          <span class="stat-l">Cost</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <section class="features" id="features">
+      <div class="section-container">
+        <div class="section-label">What's inside</div>
+        <h2 class="section-title">
+          Everything a Muslim needs<br /><em>on their lock screen.</em>
+        </h2>
+
+        <div class="features-grid">
+          <article class="feat-card feat-card--large">
+            <div class="feat-icon">📅</div>
+            <h3>Daily Hijri Date</h3>
+            <p>
+              Accurate Hijri dates updated automatically. Complete Islamic date
+              with Arabic month names displayed in your language of choice.
+            </p>
+            <div class="feat-tag">Auto-updated twice daily</div>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">🕌</div>
+            <h3>Islamic Events</h3>
+            <p>
+              Never miss Ramadan, Eid al-Fitr, Eid al-Adha, Islamic New Year,
+              Mawlid, Day of Arafah, or Ashura.
+            </p>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">🌙</div>
+            <h3>Sunnah Fasting Reminders</h3>
+            <p>
+              Timely reminders for Ayyamul Bidh (13–15th), Monday & Thursday
+              fasts, Tasu'a, Ashura, and Arafah.
+            </p>
+          </article>
+
+          <article class="feat-card feat-card--accent">
+            <div class="feat-icon">📆</div>
+            <h3>Hijri Date Offset <span class="new-badge">New</span></h3>
+            <p>
+              Adjust the Hijri date by ±2 days to match your local moon sighting
+              — perfect for regional Ramadan &amp; Eid accuracy.
+            </p>
+          </article>
+
+          <article class="feat-card feat-card--accent">
+            <div class="feat-icon">🗓️</div>
+            <h3>Javanese Pasaran <span class="new-badge">New</span></h3>
+            <p>
+              Display the traditional Javanese market cycle — Legi, Pahing, Pon,
+              Wage, Kliwon — alongside your Hijri date.
+            </p>
+          </article>
+
+          <article class="feat-card">
+            <div class="feat-icon">⚡</div>
+            <h3>Truly Lightweight</h3>
+            <p>
+              Only 7 MB. Updates independently without requiring you to open the
+              app. Minimal battery usage.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WIDGET STYLES -->
+    <section class="widgets-section">
+      <div class="section-container">
+        <div class="section-label">5 Widget Styles</div>
+        <h2 class="section-title">Pick the look<br /><em>that's yours.</em></h2>
+        <p class="section-desc">
+          Every widget style is designed to sit naturally on your home screen —
+          whether you love clean minimalism or rich Arabic calligraphy.
+        </p>
+
+        <div class="styles-list">
+          <div class="style-item">
+            <div class="style-dot" style="background: #c8a96e"></div>
+            <span class="style-name">Standard</span>
+            <span class="style-desc">Full date with event info</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #e8e0d5"></div>
+            <span class="style-name">Minimal</span>
+            <span class="style-desc">Clean, distraction-free</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #3d5a4a"></div>
+            <span class="style-name">Javanese</span>
+            <span class="style-desc">With Pasaran display</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #1a1a2e"></div>
+            <span class="style-name">Arabic</span>
+            <span class="style-desc">Full Arabic numerals &amp; script</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #5c4a7a"></div>
+            <span class="style-name">Unified</span>
+            <span class="style-desc">Both calendars in one</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY FREE -->
+    <section class="promise-section">
+      <div class="section-container">
+        <div class="promise-inner">
+          <div class="promise-text">
+            <div class="section-label">Our Promise</div>
+            <h2 class="section-title">
+              Built for the Ummah.<br /><em>Always free.</em>
+            </h2>
+            <p>
+              Hijri Today was created with love for Muslims worldwide. No
+              paywalls. No ads. No data collection. Just a clean, useful tool
+              that helps you stay connected to the Islamic calendar every single
+              day.
+            </p>
+            <ul class="promise-list">
+              <li><span class="check">✓</span> Completely free — forever</li>
+              <li><span class="check">✓</span> Zero advertisements</li>
+              <li><span class="check">✓</span> No data collected or tracked</li>
+              <li>
+                <span class="check">✓</span> Minimal permissions (alarm only)
+              </li>
+              <li>
+                <span class="check">✓</span> Works offline, no internet needed
+              </li>
+            </ul>
+          </div>
+          <div class="promise-quote">
+            <blockquote>
+              "Built with love for the Muslim Ummah."
+              <cite>— FlagoDNA Developer</cite>
+            </blockquote>
+            <p class="barakallah">بَارَكَ اللَّهُ فِيكُمْ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section class="languages-section">
+      <div class="section-container">
+        <div class="section-label">Global reach</div>
+        <h2 class="section-title">31 Languages.<br /><em>One Ummah.</em></h2>
+        <div class="lang-grid">
+          <span class="lang-tag">🇬🇧 English</span>
+          <span class="lang-tag">🇸🇦 Arabic</span>
+          <span class="lang-tag">🇧🇩 Bengali</span>
+          <span class="lang-tag">🇫🇷 French</span>
+          <span class="lang-tag">🇳🇬 Hausa</span>
+          <span class="lang-tag">🇮🇳 Hindi</span>
+          <span class="lang-tag">🇮🇩 Indonesian</span>
+          <span class="lang-tag">🇲🇾 Malay</span>
+          <span class="lang-tag">🇸🇴 Somali</span>
+          <span class="lang-tag">🇪🇸 Spanish</span>
+          <span class="lang-tag">🇹🇷 Turkish</span>
+          <span class="lang-tag">🇵🇰 Urdu</span>
+          <span class="lang-tag">🇳🇬 Yoruba</span>
+          <span class="lang-tag">🇦🇱 Albanian</span>
+          <span class="lang-tag">🇪🇹 Amharic</span>
+          <span class="lang-tag">🇧🇦 Bosnian</span>
+          <span class="lang-tag">🇳🇱 Dutch</span>
+          <span class="lang-tag">🇩🇪 German</span>
+          <span class="lang-tag">🇮🇹 Italian</span>
+          <span class="lang-tag">🇰🇿 Kazakh</span>
+          <span class="lang-tag">🇮🇶 Kurdish</span>
+          <span class="lang-tag">🇦🇫 Pashto</span>
+          <span class="lang-tag">🇮🇷 Persian</span>
+          <span class="lang-tag">🇵🇹 Portuguese</span>
+          <span class="lang-tag">🇮🇳 Punjabi</span>
+          <span class="lang-tag">🇷🇺 Russian</span>
+          <span class="lang-tag">🇹🇿 Swahili</span>
+          <span class="lang-tag">🇵🇭 Tagalog</span>
+          <span class="lang-tag">🇱🇰 Tamil</span>
+          <span class="lang-tag">🇺🇿 Uzbek</span>
+          <span class="lang-tag lang-tag--more">+ more coming</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="cta-inner">
+        <div class="cta-moon" aria-hidden="true">☽</div>
+        <h2 class="cta-title">Never miss an Islamic date again.</h2>
+        <p class="cta-sub">
+          Download Hijri Today — free on Google Play. Android 6.0 and up.
+        </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+          target="_blank"
+          rel="noopener"
+          class="btn-primary btn-primary--large"
+        >
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M3.18 23.76a2 2 0 0 0 2.08-.22l12.3-7.09-2.87-2.88-11.51 10.19zM.5 1.1C.19 1.46 0 2 0 2.69v18.62c0 .69.19 1.23.5 1.59l.08.07 10.43-10.43v-.24L.58 1.03.5 1.1zM20.56 10.37l-2.93-1.7-3.19 3.2 3.19 3.19 2.94-1.7c.84-.49.84-1.28-.01-1.99zM5.26.46L17.56 7.55l-2.87 2.87L3.18.23A2 2 0 0 1 5.26.46z"
+            />
+          </svg>
+          Get it on Google Play — Free
+        </a>
+        <p class="cta-note">Version 1.0.7 · Updated May 4, 2026 · 7 MB</p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-moon">☽</span>
+          <span class="logo-text">Hijri Today</span>
+        </div>
+        <p class="footer-tagline">
+          An app by
+          <a href="https://flagodna.com" target="_blank" rel="noopener"
+            >FlagoDNA Developer</a
+          >
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+            target="_blank"
+            rel="noopener"
+            >Google Play</a
+          >
+        </div>
+        <p class="footer-copy">
+          © 2025–2026 FlagoDNA Developer. Built with 🤲 for the Ummah.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
