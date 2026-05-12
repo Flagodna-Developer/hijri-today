@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hijri Today – Widget i Kalendarit Islam për Android</title>
+    <meta
+      name="description"
+      content="Hijri Today sjell kalendarin islamik Hixhri në ekranin kryesor të Android-it tuaj. Widget të bukur, kujtesa për ngjarje islamike, alarëm për agjërimet e Sunnetit dhe Pasaran Javanese — plotësisht falas, pa reklama."
+    />
+    <meta
+      name="keywords"
+      content="kalendari hixhri, widget kalendari islamik, widget android, ramazan, bajram, agjërim sunnet, ayyamul bidh, pasaran javanez, data hixhri"
+    />
+    <meta name="author" content="FlagoDNA Developer" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="../data/icons/hijri-today.png" />
+    <link
+      rel="canonical"
+      href="https://flagodna.com/hijri-today/sq/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://flagodna.com/hijri-today/sq/index.html"
+    />
+    <meta
+      property="og:title"
+      content="Hijri Today – Widget i Kalendarit Islam"
+    />
+    <meta
+      property="og:description"
+      content="Widget të bukur të datës Hixhri për ekranin tuaj kryesor të Android. Falas, pa reklama, mbështet 31 gjuhë. Mos humbisni kurrë Ramazanin, Bajramin ose ditët e agjërimit të Sunnetit."
+    />
+    <meta
+      property="og:image"
+      content="https://flagodna.com/hijri-today/data/images/og-image.jpg"
+    />
+    <meta property="og:site_name" content="Hijri Today" />
+    <meta property="og:locale" content="sq_AL" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Hijri Today – Widget i Kalendarit Islam"
+    />
+    <meta
+      name="twitter:description"
+      content="Widget Android falas për data Hixhri, ngjarje islamike dhe agjërimet e Sunnetit. 31 gjuhë, pa reklama."
+    />
+    <meta
+      name="twitter:image"
+      content="https://flagodna.com/hijri-today/data/images/og-image.jpg"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Hijri Today",
+        "operatingSystem": "Android 6.0+",
+        "applicationCategory": "LifestyleApplication",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Hijri Today sjell kalendarin islamik në ekranin tuaj kryesor të Android me widget të bukur dhe të lehtë për t'u përdorur.",
+        "author": { "@type": "Organization", "name": "FlagoDNA Developer" },
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.flagodna.hijridate",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "5000"
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../data/css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a
+          href="../index.html"
+          class="nav-back"
+          aria-label="Kthehu në krye"
+          title="Kthehu në krye"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+          </svg>
+        </a>
+        <a href="../index.html" class="nav-logo">
+          <img
+            src="../data/icons/hijri-today.png"
+            alt="Hijri Today"
+            onerror="this.style.display='none'"
+          />
+        </a>
+        <span class="nav-lang-badge" aria-label="Gjuha aktuale">🇦🇱</span>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+          target="_blank"
+          rel="noopener"
+          class="nav-cta"
+          >Shkarko Aplikacionin</a
+        >
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-bg-pattern" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>Falas · Pa Reklama · 5,000+ Shkarkime
+        </div>
+        <h1 class="hero-title">
+          Kalendari islamik,<br /><em>gjithmonë në ekranin tuaj.</em>
+        </h1>
+        <p class="hero-sub">
+          Hijri Today sjell data të sakta Hixhri, ngjarje islamike dhe kujtesa
+          për agjërimet e Sunnetit direkt në ekranin kryesor të Android-it tuaj
+          — me stil. Pa nevojë për prekje.
+        </p>
+        <div class="hero-actions">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M3.18 23.76a2 2 0 0 0 2.08-.22l12.3-7.09-2.87-2.88-11.51 10.19zM.5 1.1C.19 1.46 0 2 0 2.69v18.62c0 .69.19 1.23.5 1.59l.08.07 10.43-10.43v-.24L.58 1.03.5 1.1zM20.56 10.37l-2.93-1.7-3.19 3.2 3.19 3.19 2.94-1.7c.84-.49.84-1.28-.01-1.99zM5.26.46L17.56 7.55l-2.87 2.87L3.18.23A2 2 0 0 1 5.26.46z"
+              />
+            </svg>
+            Shkarko në Google Play
+          </a>
+          <a href="#features" class="btn-ghost">Eksploroni veçoritë ↓</a>
+        </div>
+        <div class="hero-widgets" aria-label="Paraparje e Widget">
+          <div class="widget widget--standard">
+            <div class="w-label">Standard</div>
+            <div class="w-arabic">رَمَضَان</div>
+            <div class="w-date">15 Ramazan 1446</div>
+            <div class="w-event">🌙 Nata e Kadrit po afron</div>
+          </div>
+          <div class="widget widget--minimal">
+            <div class="w-label">Minimal</div>
+            <div class="w-date-big">15</div>
+            <div class="w-month">Ramazan 1446</div>
+          </div>
+          <div class="widget widget--arabic">
+            <div class="w-label">Arabisht</div>
+            <div class="w-arabic-full">١٥ رَمَضَان ١٤٤٦</div>
+            <div class="w-day-ar">E Mërkurë</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="stats-bar">
+      <div class="stats-inner">
+        <div class="stat">
+          <span class="stat-n">5K+</span><span class="stat-l">Shkarkime</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">31</span><span class="stat-l">Gjuhë</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">5</span
+          ><span class="stat-l">Stile Widget-i</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">0₨</span><span class="stat-l">Kosto</span>
+        </div>
+      </div>
+    </div>
+    <section class="features" id="features">
+      <div class="section-container">
+        <div class="section-label">Çfarë përfshin</div>
+        <h2 class="section-title">
+          Gjithçka që i nevojitet një myslimani<br /><em
+            >në ekranin e kyçjes.</em
+          >
+        </h2>
+        <div class="features-grid">
+          <article class="feat-card feat-card--large">
+            <div class="feat-icon">📅</div>
+            <h3>Data e Përditshme Hixhri</h3>
+            <p>
+              Data të sakta Hixhri që përditësohen automatikisht. Datë islamike
+              e plotë me emra muajsh arabisht, të shfaqura në gjuhën tuaj të
+              preferuar.
+            </p>
+            <div class="feat-tag">
+              Përditësohet automatikisht dy herë në ditë
+            </div>
+          </article>
+          <article class="feat-card">
+            <div class="feat-icon">🕌</div>
+            <h3>Ngjarje Islamike</h3>
+            <p>
+              Mos humbisni kurrë Ramazanin, Bajramin e Fitrit, Bajramin e
+              Kurbanit, Vitin e Ri Islam, Mevludin, Ditën e Arafatit ose
+              Ashuranë.
+            </p>
+          </article>
+          <article class="feat-card">
+            <div class="feat-icon">🌙</div>
+            <h3>Kujtesa për Agjërimet e Sunnetit</h3>
+            <p>
+              Kujtesa në kohën e duhur për Ayyamul Bidh (13–15), agjërimet e E
+              Hënës & E Enjte, Tasu'a, Ashura dhe Arafat.
+            </p>
+          </article>
+          <article class="feat-card feat-card--accent">
+            <div class="feat-icon">📆</div>
+            <h3>
+              Rregullimi i Datës Hixhri <span class="new-badge">E Re</span>
+            </h3>
+            <p>
+              Rregulloni datën Hixhri ±2 ditë për të përputhur me vëzhgimin
+              lokal të hënës — perfekte për saktësinë rajonale të Ramazanit &
+              Bajramit.
+            </p>
+          </article>
+          <article class="feat-card feat-card--accent">
+            <div class="feat-icon">🗓️</div>
+            <h3>Pasaran Javanese <span class="new-badge">E Re</span></h3>
+            <p>
+              Shfaqni ciklin tradicional të tregut javanez — Legi, Pahing, Pon,
+              Wage, Kliwon — pranë datës suaj Hixhri.
+            </p>
+          </article>
+          <article class="feat-card">
+            <div class="feat-icon">⚡</div>
+            <h3>Vërtet i Lehtë</h3>
+            <p>
+              Vetëm 7 MB. Përditësohet në mënyrë të pavarur pa pasur nevojë të
+              hapni aplikacionin. Përdorim minimal i baterisë.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="widgets-section">
+      <div class="section-container">
+        <div class="section-label">5 Stile Widget-i</div>
+        <h2 class="section-title">
+          Zgjidhni pamjen<br /><em>që ju përshtatet.</em>
+        </h2>
+        <p class="section-desc">
+          Çdo stil widget-i është dizajnuar për t'u integruar natyrshëm në
+          ekranin tuaj kryesor — qoftë se preferoni minimalizmin e pastër ose
+          kaligrafinë e pasur arabe.
+        </p>
+        <div class="styles-list">
+          <div class="style-item">
+            <div class="style-dot" style="background: #c8a96e"></div>
+            <span class="style-name">Standard</span
+            ><span class="style-desc"
+              >Datë e plotë me informacion ngjarjeje</span
+            >
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #e8e0d5"></div>
+            <span class="style-name">Minimal</span
+            ><span class="style-desc">I pastër, pa shpërqendrime</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #3d5a4a"></div>
+            <span class="style-name">Javanese</span
+            ><span class="style-desc">Me shfaqje Pasaran</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #1a1a2e"></div>
+            <span class="style-name">Arabisht</span
+            ><span class="style-desc">Numra dhe shkrim i plotë arabisht</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #5c4a7a"></div>
+            <span class="style-name">I Unifikuar</span
+            ><span class="style-desc">Të dy kalendarët në një</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promise-section">
+      <div class="section-container">
+        <div class="promise-inner">
+          <div class="promise-text">
+            <div class="section-label">Premtimi Ynë</div>
+            <h2 class="section-title">
+              Ndërtuar për Umetin.<br /><em>Gjithmonë falas.</em>
+            </h2>
+            <p>
+              Hijri Today u krijua me dashuri për myslimanët në mbarë botën. Pa
+              pagesa. Pa reklama. Pa mbledhje të dhënash. Vetëm një mjet i
+              pastër dhe i dobishëm që ju ndihmon të qëndroni të lidhur me
+              kalendarin islamik çdo ditë.
+            </p>
+            <ul class="promise-list">
+              <li>
+                <span class="check">✓</span> Plotësisht falas — për gjithmonë
+              </li>
+              <li><span class="check">✓</span> Zero reklama</li>
+              <li>
+                <span class="check">✓</span> Asnjë e dhënë nuk mblidhet ose
+                ndiqet
+              </li>
+              <li><span class="check">✓</span> Leje minimale (vetëm alarëm)</li>
+              <li>
+                <span class="check">✓</span> Punon offline, nuk kërkon internet
+              </li>
+            </ul>
+          </div>
+          <div class="promise-quote">
+            <blockquote>
+              "Ndërtuar me dashuri për Umetin Musliman."<cite
+                >— FlagoDNA Developer</cite
+              >
+            </blockquote>
+            <p class="barakallah">بَارَكَ اللَّهُ فِيكُمْ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="languages-section">
+      <div class="section-container">
+        <div class="section-label">Mbështetje Globale</div>
+        <h2 class="section-title">31 Gjuhë.<br /><em>Një Umet.</em></h2>
+        <div class="lang-grid">
+          <a href="../en/index.html" class="lang-tag">🇬🇧 English</a>
+          <a href="../ar/index.html" class="lang-tag">🇸🇦 العربية</a>
+          <a href="../bn/index.html" class="lang-tag">🇧🇩 Bengali</a>
+          <a href="../fr/index.html" class="lang-tag">🇫🇷 French</a>
+          <a href="../ha/index.html" class="lang-tag">🇳🇬 Hausa</a>
+          <a href="../hi/index.html" class="lang-tag">🇮🇳 Hindi</a>
+          <a href="../id/index.html" class="lang-tag">🇮🇩 Indonesian</a>
+          <a href="../ms/index.html" class="lang-tag">🇲🇾 Malay</a>
+          <a href="../so/index.html" class="lang-tag">🇸🇴 Somali</a>
+          <a href="../es/index.html" class="lang-tag">🇪🇸 Spanish</a>
+          <a href="../tr/index.html" class="lang-tag">🇹🇷 Turkish</a>
+          <a href="../ur/index.html" class="lang-tag">🇵🇰 Urdu</a>
+          <a href="../yo/index.html" class="lang-tag">🇳🇬 Yoruba</a>
+          <a href="#" class="lang-tag active">🇦🇱 Albanian</a>
+          <a href="../am/index.html" class="lang-tag">🇪🇹 Amharic</a>
+          <a href="../bs/index.html" class="lang-tag">🇧🇦 Bosnian</a>
+          <a href="../nl/index.html" class="lang-tag">🇳🇱 Dutch</a>
+          <a href="../de/index.html" class="lang-tag">🇩🇪 German</a>
+          <a href="../it/index.html" class="lang-tag">🇮🇹 Italian</a>
+          <a href="../kk/index.html" class="lang-tag">🇰🇿 Kazakh</a>
+          <a href="../ku/index.html" class="lang-tag">🇮🇶 Kurdish</a>
+          <a href="../ps/index.html" class="lang-tag">🇦🇫 Pashto</a>
+          <a href="../fa/index.html" class="lang-tag">🇮🇷 Persian</a>
+          <a href="../pt/index.html" class="lang-tag">🇵🇹 Portuguese</a>
+          <a href="../pa/index.html" class="lang-tag">🇮🇳 Punjabi</a>
+          <a href="../ru/index.html" class="lang-tag">🇷🇺 Russian</a>
+          <a href="../sw/index.html" class="lang-tag">🇹🇿 Swahili</a>
+          <a href="../tl/index.html" class="lang-tag">🇵🇭 Tagalog</a>
+          <a href="../ta/index.html" class="lang-tag">🇱🇰 Tamil</a>
+          <a href="../uz/index.html" class="lang-tag">🇺🇿 Uzbek</a>
+          <span class="lang-tag lang-tag--more">+ më shumë së shpejti</span>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="cta-inner">
+        <div class="cta-moon" aria-hidden="true">☽</div>
+        <h2 class="cta-title">Mos humbisni kurrë një datë islamike përsëri.</h2>
+        <p class="cta-sub">
+          Shkarkoni Hijri Today — falas në Google Play. Android 6.0 e lart.
+        </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+          target="_blank"
+          rel="noopener"
+          class="btn-primary btn-primary--large"
+        >
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M3.18 23.76a2 2 0 0 0 2.08-.22l12.3-7.09-2.87-2.88-11.51 10.19zM.5 1.1C.19 1.46 0 2 0 2.69v18.62c0 .69.19 1.23.5 1.59l.08.07 10.43-10.43v-.24L.58 1.03.5 1.1zM20.56 10.37l-2.93-1.7-3.19 3.2 3.19 3.19 2.94-1.7c.84-.49.84-1.28-.01-1.99zM5.26.46L17.56 7.55l-2.87 2.87L3.18.23A2 2 0 0 1 5.26.46z"
+            />
+          </svg>
+          Merrni në Google Play — Falas
+        </a>
+        <p class="cta-note">
+          Versioni 1.0.7 · Përditësuar më 4 Maj 2026 · 7 MB
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-moon">☽</span
+          ><span class="logo-text">Hijri Today</span>
+        </div>
+        <p class="footer-tagline">
+          Një aplikacion nga
+          <a href="https://flagodna.com" target="_blank" rel="noopener"
+            >FlagoDNA Developer</a
+          >
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+            target="_blank"
+            rel="noopener"
+            >Google Play</a
+          >
+        </div>
+        <p class="footer-copy">
+          © 2025–2026 FlagoDNA Developer. Ndërtuar me 🤲 për Umetin.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

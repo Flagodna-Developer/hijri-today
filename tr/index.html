@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hijri Today – Android İçin İslami Takvim Widget'ı</title>
+    <meta
+      name="description"
+      content="Hijri Today, İslami Hicri takvimi Android ana ekranınıza getirir. Şık widget'lar, İslami etkinlik hatırlatıcıları, Sünnet oruç uyarıları ve Cava Pasaranı — tamamen ücretsiz, reklamsız."
+    />
+    <meta
+      name="keywords"
+      content="hicri takvim, islami takvim widget, android widget, ramazan, bayram, sünnet orucu, eyyam-ı bid, cava pasaran, hicri tarih"
+    />
+    <meta name="author" content="FlagoDNA Geliştirici" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="../data/icons/hijri-today.png" />
+    <link
+      rel="canonical"
+      href="https://flagodna.com/hijri-today/tr/index.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://flagodna.com/hijri-today/tr/index.html"
+    />
+    <meta property="og:title" content="Hijri Today – İslami Takvim Widget'ı" />
+    <meta
+      property="og:description"
+      content="Android ana ekranınız için şık Hicri tarih widget'ları. Ücretsiz, reklamsız, 31 dil desteği. Ramazan, Bayram veya Sünnet oruç günlerini bir daha asla kaçırmayın."
+    />
+    <meta
+      property="og:image"
+      content="https://flagodna.com/hijri-today/data/images/og-image.jpg"
+    />
+    <meta property="og:site_name" content="Hijri Today" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Hijri Today – İslami Takvim Widget'ı" />
+    <meta
+      name="twitter:description"
+      content="Hicri tarihler, İslami etkinlikler ve Sünnet oruçları için ücretsiz Android widget'ı. 31 dil, reklamsız."
+    />
+    <meta
+      name="twitter:image"
+      content="https://flagodna.com/hijri-today/data/images/og-image.jpg"
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Hijri Today",
+        "operatingSystem": "Android 6.0+",
+        "applicationCategory": "LifestyleApplication",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Hijri Today, İslami takvimi şık ve kullanımı kolay widget'larla Android ana ekranınıza getirir.",
+        "author": { "@type": "Organization", "name": "FlagoDNA Geliştirici" },
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.flagodna.hijridate",
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5",
+          "ratingCount": "5000"
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../data/css/style.css" />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-inner">
+        <a
+          href="../index.html"
+          class="nav-back"
+          aria-label="Ana sayfaya dön"
+          title="Ana sayfaya dön"
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M19 12H5M12 19l-7-7 7-7" />
+          </svg>
+        </a>
+        <a href="../index.html" class="nav-logo">
+          <img
+            src="../data/icons/hijri-today.png"
+            alt="Hijri Today"
+            onerror="this.style.display='none'"
+          />
+        </a>
+        <span class="nav-lang-badge" aria-label="Mevcut dil">🇹🇷</span>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+          target="_blank"
+          rel="noopener"
+          class="nav-cta"
+          >Uygulamayı İndir</a
+        >
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-bg-pattern" aria-hidden="true"></div>
+      <div class="hero-container">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>Ücretsiz · Reklamsız · 5.000+ İndirme
+        </div>
+        <h1 class="hero-title">
+          İslami takvim,<br /><em>her zaman ekranınızda.</em>
+        </h1>
+        <p class="hero-sub">
+          Hijri Today, doğru Hicri tarihleri, İslami etkinlikleri ve Sünnet oruç
+          hatırlatıcılarını doğrudan Android ana ekranınıza getirir — şık bir
+          şekilde. Dokunmaya gerek yok.
+        </p>
+        <div class="hero-actions">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+            target="_blank"
+            rel="noopener"
+            class="btn-primary"
+          >
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M3.18 23.76a2 2 0 0 0 2.08-.22l12.3-7.09-2.87-2.88-11.51 10.19zM.5 1.1C.19 1.46 0 2 0 2.69v18.62c0 .69.19 1.23.5 1.59l.08.07 10.43-10.43v-.24L.58 1.03.5 1.1zM20.56 10.37l-2.93-1.7-3.19 3.2 3.19 3.19 2.94-1.7c.84-.49.84-1.28-.01-1.99zM5.26.46L17.56 7.55l-2.87 2.87L3.18.23A2 2 0 0 1 5.26.46z"
+              />
+            </svg>
+            Google Play'den İndir
+          </a>
+          <a href="#features" class="btn-ghost">Özellikleri Keşfet ↓</a>
+        </div>
+        <div class="hero-widgets" aria-label="Widget önizleme">
+          <div class="widget widget--standard">
+            <div class="w-label">Standart</div>
+            <div class="w-arabic">رَمَضَان</div>
+            <div class="w-date">15 Ramazan 1446</div>
+            <div class="w-event">🌙 Kadir Gecesi yaklaşıyor</div>
+          </div>
+          <div class="widget widget--minimal">
+            <div class="w-label">Minimal</div>
+            <div class="w-date-big">15</div>
+            <div class="w-month">Ramazan 1446</div>
+          </div>
+          <div class="widget widget--arabic">
+            <div class="w-label">Arapça</div>
+            <div class="w-arabic-full">١٥ رَمَضَان ١٤٤٦</div>
+            <div class="w-day-ar">Çarşamba</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="stats-bar">
+      <div class="stats-inner">
+        <div class="stat">
+          <span class="stat-n">5K+</span><span class="stat-l">İndirme</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">31</span><span class="stat-l">Dil</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">5</span><span class="stat-l">Widget Stili</span>
+        </div>
+        <div class="stat-divider" aria-hidden="true"></div>
+        <div class="stat">
+          <span class="stat-n">0₨</span><span class="stat-l">Maliyet</span>
+        </div>
+      </div>
+    </div>
+    <section class="features" id="features">
+      <div class="section-container">
+        <div class="section-label">İçerik</div>
+        <h2 class="section-title">
+          Bir Müslümanın ihtiyacı olan her şey<br /><em>kilit ekranında.</em>
+        </h2>
+        <div class="features-grid">
+          <article class="feat-card feat-card--large">
+            <div class="feat-icon">📅</div>
+            <h3>Günlük Hicri Tarih</h3>
+            <p>
+              Otomatik güncellenen doğru Hicri tarihleri. Tercih ettiğiniz dilde
+              Arapça ay isimleriyle birlikte eksiksiz İslami tarih.
+            </p>
+            <div class="feat-tag">Günde iki kez otomatik güncelleme</div>
+          </article>
+          <article class="feat-card">
+            <div class="feat-icon">🕌</div>
+            <h3>İslami Etkinlikler</h3>
+            <p>
+              Ramazan, Ramazan Bayramı, Kurban Bayramı, Hicri Yılbaşı, Mevlid
+              Kandili, Arefe Günü veya Aşure'yi asla kaçırmayın.
+            </p>
+          </article>
+          <article class="feat-card">
+            <div class="feat-icon">🌙</div>
+            <h3>Sünnet Oruç Hatırlatıcıları</h3>
+            <p>
+              Ayyam-ı Bıyz (13–14–15), Pazartesi ve Perşembe oruçları, Aşure,
+              Arefe ve Tasua için zamanında hatırlatmalar.
+            </p>
+          </article>
+          <article class="feat-card feat-card--accent">
+            <div class="feat-icon">📆</div>
+            <h3>Hicri Tarih Ayarı <span class="new-badge">Yeni</span></h3>
+            <p>
+              Bölgesel hilal gözlemlerine uyum sağlamak için Hicri tarihi ±2 gün
+              ayarlayın — bölgesel Ramazan ve Bayram doğruluğu için mükemmel.
+            </p>
+          </article>
+          <article class="feat-card feat-card--accent">
+            <div class="feat-icon">🗓️</div>
+            <h3>Cava Pasaranı <span class="new-badge">Yeni</span></h3>
+            <p>
+              Geleneksel Cava pazar döngüsünü — Legi, Pahing, Pon, Wage, Kliwon
+              — Hicri tarihinizin yanında görüntüleyin.
+            </p>
+          </article>
+          <article class="feat-card">
+            <div class="feat-icon">⚡</div>
+            <h3>Gerçekten Hafif</h3>
+            <p>
+              Sadece 7 MB. Uygulamayı açmanıza gerek kalmadan bağımsız olarak
+              güncellenir. Minimal pil tüketimi.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="widgets-section">
+      <div class="section-container">
+        <div class="section-label">5 Widget Stili</div>
+        <h2 class="section-title">
+          Size en uygun<br /><em>görünümü seçin.</em>
+        </h2>
+        <p class="section-desc">
+          Her widget stili, temiz minimalist bir tasarım zengin Arapça hat
+          sanatı arasında tercih ne olursa olsun, ana ekranınızda doğal bir
+          şekilde durmak üzere tasarlanmıştır.
+        </p>
+        <div class="styles-list">
+          <div class="style-item">
+            <div class="style-dot" style="background: #c8a96e"></div>
+            <span class="style-name">Standart</span
+            ><span class="style-desc">Etkinlik bilgisiyle tam tarih</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #e8e0d5"></div>
+            <span class="style-name">Minimal</span
+            ><span class="style-desc">Temiz, dikkat dağıtıcı unsursuz</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #3d5a4a"></div>
+            <span class="style-name">Cava</span
+            ><span class="style-desc">Pasaran gösterimiyle</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #1a1a2e"></div>
+            <span class="style-name">Arapça</span
+            ><span class="style-desc">Tam Arapça rakamlar ve yazı</span>
+          </div>
+          <div class="style-item">
+            <div class="style-dot" style="background: #5c4a7a"></div>
+            <span class="style-name">Birleşik</span
+            ><span class="style-desc">Tek görünümde iki takvim</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="promise-section">
+      <div class="section-container">
+        <div class="promise-inner">
+          <div class="promise-text">
+            <div class="section-label">Vaadimiz</div>
+            <h2 class="section-title">
+              Ümmet için yapıldı.<br /><em>Her zaman ücretsiz.</em>
+            </h2>
+            <p>
+              Hijri Today, dünya çapındaki Müslümanlar için sevgiyle
+              geliştirildi. Ödeme duvarı yok. Reklam yok. Veri toplama yok.
+              Sadece sizi her gün İslami takvimle bağlantıda tutan temiz,
+              kullanışlı bir araç.
+            </p>
+            <ul class="promise-list">
+              <li>
+                <span class="check">✓</span> Tamamen ücretsiz — sonsuza kadar
+              </li>
+              <li><span class="check">✓</span> Sıfır reklam</li>
+              <li>
+                <span class="check">✓</span> Hiçbir veri toplanmaz veya izlenmez
+              </li>
+              <li>
+                <span class="check">✓</span> Minimum izinler (yalnızca alarm)
+              </li>
+              <li>
+                <span class="check">✓</span> Çevrimdışı çalışır, internet
+                gerekmez
+              </li>
+            </ul>
+          </div>
+          <div class="promise-quote">
+            <blockquote>
+              "Müslüman Ümmeti için sevgiyle yapıldı."<cite
+                >— FlagoDNA Geliştirici</cite
+              >
+            </blockquote>
+            <p class="barakallah">بَارَكَ اللَّهُ فِيكُمْ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="languages-section">
+      <div class="section-container">
+        <div class="section-label">Küresel Erişim</div>
+        <h2 class="section-title">31 Dil.<br /><em>Bir Ümmet.</em></h2>
+        <div class="lang-grid">
+          <a href="../en/index.html" class="lang-tag">🇬🇧 English</a>
+          <a href="../ar/index.html" class="lang-tag">🇸🇦 العربية</a>
+          <a href="../bn/index.html" class="lang-tag">🇧🇩 Bengali</a>
+          <a href="../fr/index.html" class="lang-tag">🇫🇷 French</a>
+          <a href="../ha/index.html" class="lang-tag">🇳🇬 Hausa</a>
+          <a href="../hi/index.html" class="lang-tag">🇮🇳 Hindi</a>
+          <a href="../id/index.html" class="lang-tag">🇮🇩 Indonesian</a>
+          <a href="../ms/index.html" class="lang-tag">🇲🇾 Malay</a>
+          <a href="../so/index.html" class="lang-tag">🇸🇴 Somali</a>
+          <a href="../es/index.html" class="lang-tag">🇪🇸 Spanish</a>
+          <a href="#" class="lang-tag active">🇹🇷 Turkish</a>
+          <a href="../ur/index.html" class="lang-tag">🇵🇰 Urdu</a>
+          <a href="../yo/index.html" class="lang-tag">🇳🇬 Yoruba</a>
+          <a href="../sq/index.html" class="lang-tag">🇦🇱 Albanian</a>
+          <a href="../am/index.html" class="lang-tag">🇪🇹 Amharic</a>
+          <a href="../bs/index.html" class="lang-tag">🇧🇦 Bosnian</a>
+          <a href="../nl/index.html" class="lang-tag">🇳🇱 Dutch</a>
+          <a href="../de/index.html" class="lang-tag">🇩🇪 German</a>
+          <a href="../it/index.html" class="lang-tag">🇮🇹 Italian</a>
+          <a href="../kk/index.html" class="lang-tag">🇰🇿 Kazakh</a>
+          <a href="../ku/index.html" class="lang-tag">🇮🇶 Kurdish</a>
+          <a href="../ps/index.html" class="lang-tag">🇦🇫 Pashto</a>
+          <a href="../fa/index.html" class="lang-tag">🇮🇷 Persian</a>
+          <a href="../pt/index.html" class="lang-tag">🇵🇹 Portuguese</a>
+          <a href="../pa/index.html" class="lang-tag">🇮🇳 Punjabi</a>
+          <a href="../ru/index.html" class="lang-tag">🇷🇺 Russian</a>
+          <a href="../sw/index.html" class="lang-tag">🇹🇿 Swahili</a>
+          <a href="../tl/index.html" class="lang-tag">🇵🇭 Tagalog</a>
+          <a href="../ta/index.html" class="lang-tag">🇱🇰 Tamil</a>
+          <a href="../uz/index.html" class="lang-tag">🇺🇿 Uzbek</a>
+          <span class="lang-tag lang-tag--more">+ yakında daha fazlası</span>
+        </div>
+      </div>
+    </section>
+    <section class="cta-section">
+      <div class="cta-inner">
+        <div class="cta-moon" aria-hidden="true">☽</div>
+        <h2 class="cta-title">Bir daha asla İslami tarihi kaçırmayın.</h2>
+        <p class="cta-sub">
+          Hijri Today'i indirin — Google Play'de ücretsiz. Android 6.0 ve üzeri.
+        </p>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+          target="_blank"
+          rel="noopener"
+          class="btn-primary btn-primary--large"
+        >
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path
+              d="M3.18 23.76a2 2 0 0 0 2.08-.22l12.3-7.09-2.87-2.88-11.51 10.19zM.5 1.1C.19 1.46 0 2 0 2.69v18.62c0 .69.19 1.23.5 1.59l.08.07 10.43-10.43v-.24L.58 1.03.5 1.1zM20.56 10.37l-2.93-1.7-3.19 3.2 3.19 3.19 2.94-1.7c.84-.49.84-1.28-.01-1.99zM5.26.46L17.56 7.55l-2.87 2.87L3.18.23A2 2 0 0 1 5.26.46z"
+            />
+          </svg>
+          Google Play'den Alın — Ücretsiz
+        </a>
+        <p class="cta-note">
+          Sürüm 1.0.7 · 4 Mayıs 2026 Tarihinde Güncellendi · 7 MB
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-moon">☽</span
+          ><span class="logo-text">Hijri Today</span>
+        </div>
+        <p class="footer-tagline">
+          <a href="https://flagodna.com" target="_blank" rel="noopener"
+            >FlagoDNA Geliştirici</a
+          >
+          tarafından geliştirilen bir uygulama
+        </p>
+        <div class="footer-links">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.flagodna.hijridate"
+            target="_blank"
+            rel="noopener"
+            >Google Play</a
+          >
+        </div>
+        <p class="footer-copy">
+          © 2025–2026 FlagoDNA Geliştirici. Ümmet için 🤲 ile yapıldı.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
