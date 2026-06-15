@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- ==============================
-       MAIN (ENGLISH) PAGE
-       ============================== -->
   <url>
     <loc>https://flagodna.com/hijri-today/</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
     <xhtml:link rel="alternate" hreflang="en"    href="https://flagodna.com/hijri-today/"/>
     <xhtml:link rel="alternate" hreflang="ar"    href="https://flagodna.com/hijri-today/ar/"/>
     <xhtml:link rel="alternate" hreflang="bn"    href="https://flagodna.com/hijri-today/bn/"/>
@@ -37,338 +36,41 @@
     <xhtml:link rel="alternate" hreflang="tl"    href="https://flagodna.com/hijri-today/tl/"/>
     <xhtml:link rel="alternate" hreflang="ta"    href="https://flagodna.com/hijri-today/ta/"/>
     <xhtml:link rel="alternate" hreflang="uz"    href="https://flagodna.com/hijri-today/uz/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
     <lastmod>2026-06-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- ==============================
-       LANGUAGE PAGES
-       ============================== -->
+  <url><loc>https://flagodna.com/hijri-today/ar/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ar" href="https://flagodna.com/hijri-today/ar/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/bn/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="bn" href="https://flagodna.com/hijri-today/bn/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/fr/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="fr" href="https://flagodna.com/hijri-today/fr/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ha/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ha" href="https://flagodna.com/hijri-today/ha/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/hi/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="hi" href="https://flagodna.com/hijri-today/hi/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/id/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="id" href="https://flagodna.com/hijri-today/id/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ms/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ms" href="https://flagodna.com/hijri-today/ms/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/so/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="so" href="https://flagodna.com/hijri-today/so/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/es/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="es" href="https://flagodna.com/hijri-today/es/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/tr/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="tr" href="https://flagodna.com/hijri-today/tr/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ur/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ur" href="https://flagodna.com/hijri-today/ur/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/yo/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="yo" href="https://flagodna.com/hijri-today/yo/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/sq/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="sq" href="https://flagodna.com/hijri-today/sq/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/am/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="am" href="https://flagodna.com/hijri-today/am/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/bs/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="bs" href="https://flagodna.com/hijri-today/bs/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/nl/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="nl" href="https://flagodna.com/hijri-today/nl/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/de/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="de" href="https://flagodna.com/hijri-today/de/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/it/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="it" href="https://flagodna.com/hijri-today/it/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/kk/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="kk" href="https://flagodna.com/hijri-today/kk/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ku/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ku" href="https://flagodna.com/hijri-today/ku/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ps/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ps" href="https://flagodna.com/hijri-today/ps/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/fa/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="fa" href="https://flagodna.com/hijri-today/fa/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/pt/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="pt" href="https://flagodna.com/hijri-today/pt/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/pa/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="pa" href="https://flagodna.com/hijri-today/pa/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ru/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ru" href="https://flagodna.com/hijri-today/ru/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/sw/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="sw" href="https://flagodna.com/hijri-today/sw/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/tl/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="tl" href="https://flagodna.com/hijri-today/tl/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/ta/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="ta" href="https://flagodna.com/hijri-today/ta/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://flagodna.com/hijri-today/uz/</loc><xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="en" href="https://flagodna.com/hijri-today/"/><xhtml:link rel="alternate" hreflang="uz" href="https://flagodna.com/hijri-today/uz/"/><lastmod>2026-06-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
 
-  <!-- Arabic -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ar"       href="https://flagodna.com/hijri-today/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Bengali -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/bn/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="bn"       href="https://flagodna.com/hijri-today/bn/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- French -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="fr"       href="https://flagodna.com/hijri-today/fr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Hausa -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ha/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ha"       href="https://flagodna.com/hijri-today/ha/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Hindi -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/hi/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="hi"       href="https://flagodna.com/hijri-today/hi/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Indonesian -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/id/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="id"       href="https://flagodna.com/hijri-today/id/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Malay -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ms/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ms"       href="https://flagodna.com/hijri-today/ms/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Somali -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/so/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="so"       href="https://flagodna.com/hijri-today/so/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Spanish -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="es"       href="https://flagodna.com/hijri-today/es/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Turkish -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/tr/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="tr"       href="https://flagodna.com/hijri-today/tr/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Urdu -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ur/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ur"       href="https://flagodna.com/hijri-today/ur/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Yoruba -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/yo/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="yo"       href="https://flagodna.com/hijri-today/yo/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Albanian -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/sq/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="sq"       href="https://flagodna.com/hijri-today/sq/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Amharic -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/am/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="am"       href="https://flagodna.com/hijri-today/am/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Bosnian -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/bs/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="bs"       href="https://flagodna.com/hijri-today/bs/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Dutch -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/nl/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="nl"       href="https://flagodna.com/hijri-today/nl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- German -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/de/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="de"       href="https://flagodna.com/hijri-today/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Italian -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/it/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="it"       href="https://flagodna.com/hijri-today/it/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Kazakh -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/kk/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="kk"       href="https://flagodna.com/hijri-today/kk/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Kurdish -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ku/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ku"       href="https://flagodna.com/hijri-today/ku/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Pashto -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ps/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ps"       href="https://flagodna.com/hijri-today/ps/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Persian -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/fa/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="fa"       href="https://flagodna.com/hijri-today/fa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Portuguese -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/pt/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="pt"       href="https://flagodna.com/hijri-today/pt/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Punjabi -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/pa/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="pa"       href="https://flagodna.com/hijri-today/pa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Russian -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ru"       href="https://flagodna.com/hijri-today/ru/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Swahili -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/sw/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="sw"       href="https://flagodna.com/hijri-today/sw/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Tagalog -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/tl/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="tl"       href="https://flagodna.com/hijri-today/tl/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Tamil -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/ta/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="ta"       href="https://flagodna.com/hijri-today/ta/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Uzbek -->
-  <url>
-    <loc>https://flagodna.com/hijri-today/uz/</loc>
-    <xhtml:link rel="alternate" hreflang="en"       href="https://flagodna.com/hijri-today/"/>
-    <xhtml:link rel="alternate" hreflang="uz"       href="https://flagodna.com/hijri-today/uz/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://flagodna.com/hijri-today/"/>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- ==============================
-       BLOG
-       ============================== -->
   <url>
     <loc>https://flagodna.com/hijri-today/blog/</loc>
     <lastmod>2026-06-15</lastmod>

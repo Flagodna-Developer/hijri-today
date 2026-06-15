@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="2.0"
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:sm="http://www.sitemaps.org/schemas/sitemap/0.9"
+  exclude-result-prefixes="sm">
+  <xsl:output method="html" version="1.0" encoding="UTF-8" indent="yes"/>
+  <xsl:template match="/">
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Sitemap — Hijri Today</title>
+        <style>
+          body { font-family: system-ui, sans-serif; margin: 0; background: #f9f9f9; color: #222; }
+          header { background: #1a1a2e; color: #fff; padding: 24px 32px; }
+          header h1 { margin: 0; font-size: 1.4rem; }
+          header p { margin: 4px 0 0; opacity: .7; font-size: .9rem; }
+          main { max-width: 900px; margin: 32px auto; padding: 0 16px; }
+          table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+          th { background: #f0f0f0; text-align: left; padding: 12px 16px; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: #666; }
+          td { padding: 11px 16px; border-top: 1px solid #eee; font-size: .9rem; }
+          td a { color: #0066cc; text-decoration: none; }
+          td a:hover { text-decoration: underline; }
+          .badge { display: inline-block; background: #e8f4e8; color: #2a7a2a; border-radius: 4px; padding: 2px 7px; font-size: .75rem; }
+          .badge.low { background: #fef3e2; color: #a05000; }
+        </style>
+      </head>
+      <body>
+        <header>
+          <h1>☽ Hijri Today — Sitemap</h1>
+          <p><xsl:value-of select="count(sm:urlset/sm:url)"/> URLs indexed</p>
+        </header>
+        <main>
+          <table>
+            <tr>
+              <th>URL</th>
+              <th>Last Modified</th>
+              <th>Change Freq</th>
+              <th>Priority</th>
+            </tr>
+            <xsl:for-each select="sm:urlset/sm:url">
+              <tr>
+                <td><a href="{sm:loc}"><xsl:value-of select="sm:loc"/></a></td>
+                <td><xsl:value-of select="sm:lastmod"/></td>
+                <td><xsl:value-of select="sm:changefreq"/></td>
+                <td>
+                  <xsl:choose>
+                    <xsl:when test="sm:priority = '1.0'">
+                      <span class="badge"><xsl:value-of select="sm:priority"/></span>
+                    </xsl:when>
+                    <xsl:otherwise>
+                      <span class="badge low"><xsl:value-of select="sm:priority"/></span>
+                    </xsl:otherwise>
+                  </xsl:choose>
+                </td>
+              </tr>
+            </xsl:for-each>
+          </table>
+        </main>
+      </body>
+    </html>
+  </xsl:template>
+</xsl:stylesheet>
